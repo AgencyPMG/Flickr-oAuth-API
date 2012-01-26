@@ -1,5 +1,10 @@
 <?PHP
-
+/*
+Created by Chris Alvares from PMG (Performance Media Group)
+@email: chris.alvares@pmg.co
+@website: pmg.co
+MIT License
+*/
 
 class Flickr
 {
@@ -11,8 +16,9 @@ class Flickr
 	{
 		@session_start();
 		$this->config = array(
-			'consumer_key' => '6ab7f99a38f7a07d488080080feafc96',
-			'consumer_secret' => '3fadf78cc8aa21db',
+			/*You can get a consumer key here: http://www.flickr.com/services/api/ */
+			'consumer_key' => 'YOUR CONSUMER KEY HERE',
+			'consumer_secret' => 'YOUR CONSUMER SECRET HERE',
 			'apiversion' => '1.0',
 			'flickr_APIURL' => 'http://www.flickr.com/services/oauth',
 			'debug' => true
